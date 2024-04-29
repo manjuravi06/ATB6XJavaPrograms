@@ -24,6 +24,8 @@ public class GetMaxNumUsingTernaryOperator {
 
         System.out.println("The greatest number is " + result);
 
+        sc.close();
+
     }
 
 

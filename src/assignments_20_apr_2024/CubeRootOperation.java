@@ -24,5 +24,7 @@ public class CubeRootOperation {
 
         System.out.println("The cube root of the expression is " + result);
 
+        sc.close();
+
     }
 }
