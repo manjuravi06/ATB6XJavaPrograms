@@ -20,7 +20,6 @@ public class PerformArithmeticOperations {
 
         char op = sc.next().charAt(0);
 
-
         switch (op) {
 
             case '+':
