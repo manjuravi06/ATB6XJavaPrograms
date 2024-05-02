@@ -12,31 +12,33 @@ public class CheckPrimeNumber {
 
         int num = sc.nextInt();
 
-        if (num == 1) {
+        boolean b = true;
 
-            System.out.println("1 is nether prime nor composite");
+        if (num <= 1) {
 
-        }
+            System.out.println("The entered number is not a prime number");
 
-        if (num > 1) {
+        } else {
 
             for (int i = 2; i < num; i++) {
 
                 if (num % i == 0) {
 
                     System.out.println("The entered number is composite : " + num);
-                    break;
 
-                } else {
+                    b = false;
 
-                    System.out.println("The entered number is prime : " + num);
                     break;
 
                 }
 
-
             }
 
+            if (b) {
+
+                System.out.println("The entered number is a prime number : " + num);
+
+            }
 
         }
 
