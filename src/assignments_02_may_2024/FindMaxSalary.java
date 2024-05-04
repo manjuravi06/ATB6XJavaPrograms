@@ -22,7 +22,7 @@ public class FindMaxSalary {
 
         }
 
-        int max = 0;
+        int max = Integer.MIN_VALUE;
 
         for (int j = 0; j < a.length; j++) {
 
