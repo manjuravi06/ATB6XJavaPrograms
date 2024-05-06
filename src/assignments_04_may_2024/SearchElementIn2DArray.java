@@ -62,5 +62,4 @@ public class SearchElementIn2DArray {
 
     }
 
-
 }
