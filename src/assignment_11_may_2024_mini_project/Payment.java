@@ -3,7 +3,7 @@ package assignment_11_may_2024_mini_project;
 public class Payment {
 
     double amount;
-    String studentName;
+    String paidBy;
     String modeOfPayment;
 
     public void cash() {
