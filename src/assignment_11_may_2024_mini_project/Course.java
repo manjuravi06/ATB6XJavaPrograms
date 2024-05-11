@@ -6,7 +6,7 @@ public class Course {
     String stream;
     int courseID;
 
-    public void java() {
+    public void courseName() {
         System.out.println("The selected course is java");
     }
 
